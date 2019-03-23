@@ -10,7 +10,7 @@ dest = []
 files = []
 temp = {}
 cpt = 0
-#Most Common ip address
+
 for each in data["tickets"]:
   if each["src_ip"] not in src :
     src[each["src_ip"]] = 1
